@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.banks_branches.BanksBranchesFragment">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/banks_recycler">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/rectangular_radius_bank"
+        android:layout_gravity="bottom"
+        android:id="@+id/details_layout"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/close_icon"
+            android:id="@+id/close_details"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adsas"
+            android:textColor="@color/wit"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/branch_name"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="adsassad sdsad
+sdasfnaslkfnlaskndasdasmlkdmasnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"
+            android:textColor="@color/wit"
+            android:gravity="center"
+            android:layout_marginRight="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/bank_phone"
+            android:textSize="18dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adsas"
+            android:textColor="@color/border"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:layout_margin="10dp"
+            android:id="@+id/soft_code"
+
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+</FrameLayout>

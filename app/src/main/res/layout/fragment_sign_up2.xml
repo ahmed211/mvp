@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".ui.create_account.SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+            android:padding="20dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edit_text_background">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/wit"
+                android:id="@+id/province"
+                android:gravity="right|center"
+                android:paddingRight="10dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/arrow1"
+                android:background="@color/border"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp"
+                android:id="@+id/arrow1"
+                android:src="@drawable/arrow_down_icon"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edit_text_background">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/wit"
+                android:id="@+id/city"
+                android:gravity="right|center"
+                android:paddingRight="10dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/arrow2"
+                android:background="@color/border"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp"
+                android:id="@+id/arrow2"
+                android:src="@drawable/arrow_down_icon"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edit_text_background">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/wit"
+                android:id="@+id/office"
+                android:gravity="right|center"
+                android:paddingRight="10dp"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/arrow3"
+                android:background="@color/border"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp"
+                android:id="@+id/arrow3"
+                android:src="@drawable/arrow_down_icon"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edit_text_background">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/wit"
+                android:id="@+id/address"
+                android:hint="العنوان بالتفصيل"
+                android:gravity="right|center"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/border"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:padding="10dp"
+                android:src="@drawable/address"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rectangular_radius_corner"
+            android:backgroundTint="@color/light"
+            android:id="@+id/register"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:drawableRight="@drawable/arrow_icon"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="تسجيل"
+            android:textSize="25dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/wit"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</ScrollView>

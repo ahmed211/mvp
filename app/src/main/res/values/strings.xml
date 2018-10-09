@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">جمعية الأورمان</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="activities">أنشطة جمعية الاورمان</string>
+    <string name="banks">التحويلات و حسابات البنوك</string>
+    <string name="isal">تاكد من ايصالك</string>
+    <string name="mndob">طلب مندوب</string>
+    <string name="branches">الفروع و العناوين</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">انشاء حساب</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="creat_account"><u>انشاء حساب جديد</u></string>
+    <string name="user_name_error">من فضلك ادخل اسم المستخدم</string>
+    <string name="password_error">من فضلك ادخل كلمة المرور</string>
+    <string name="office_error">من فضلك اخترالفرع</string>
+    <string name="login_success">تم تسجيل الدخول بنجاح</string>
+    <string name="chat">المحادثات</string>
+    <string name="mandob_orders">طلبات المندوبين</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="donation_value">قيمة التبرع</string>
+    <string name="currency_type">نوع العملة</string>
+    <string name="donation_goal">الهدف من التبرع</string>
+    <string name="donation_type">نوع التبرع</string>
+    <string name="donation">تبرع</string>
+    <string name="enter_mobile">رقم الموبايل</string>
+    <string name="last_donation">ادخل قيمة اخر تبرع</string>
+    <string name="admin">مدير الفرع</string>
+</resources>
